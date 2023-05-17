@@ -2,7 +2,8 @@
 
 (in-package #:whitebot)
 
-(setf (v:repl-level) :info)
+(setf (v:repl-level) :info
+      *random-state* (make-random-state t))
 
 (defbot *ping-bot* (uiop:read-file-line (asdf:system-relative-pathname "whitebot" "token.txt")))
 
