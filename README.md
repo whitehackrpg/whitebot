@@ -11,4 +11,4 @@ https://github.com/whitehackrpg/whitebot/assets/130791778/bdf08f6f-c173-4544-8f9
 
 Remember that you have a full sbcl image under the hood of your bot. I've put in some security measures -- like forbidding certain characters and limiting the commands available. But this is very much alpha software, so use it at your own risk.
 
- * You might need to change line 49 in ratelimits.lisp to `(int (int) (parse-integer int :junk-allowed t)))` in your liscord src folder. 
+[*] You might need to change line 49 in ratelimits.lisp to `(int (int) (parse-integer int :junk-allowed t)))` in your liscord src folder. 
