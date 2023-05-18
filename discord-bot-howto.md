@@ -2,7 +2,7 @@
 
 + Now, in Discord, go to Settings, click on "Advanced" to the left. Enable "Developer Mode", and click on the link "Discord API" in the paragraph following the developer mode headline.
 
-+ Click on "Applications" to the left, then on "New Application" to the right. Give the bot the name you want it to have on your server, and thenb click "Create."
++ Click on "Applications" to the left, then on "New Application" to the right. Give the bot the name you want it to have on your server, and then click "Create."
 
 + Now click on "Bot" to the left, then "Reset Token". Copy the resulting token string and paste it someplace where you can retrieve it (it will go in a token.txt file in whitebot). Scroll down and enable "Message Content Intent."
 
