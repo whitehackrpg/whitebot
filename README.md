@@ -1,5 +1,5 @@
 # whitebot
-Wrapper code to turn whiteshell into a discord bot.
+This project turns whiteshell into a discord bot. 
 
 You need sbcl, quicklisp, whiteshell, lispcord and a discord account that has been prepared for running a bot in one of your channels. Follow the below steps: 
 
